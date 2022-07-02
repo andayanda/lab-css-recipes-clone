@@ -1,47 +1,51 @@
 /*Some necessary adjustments*/
-h1, body, html, main {
+h1,
+body,
+html,
+main {
   margin: 0;
 }
 /*Import the font and set the default size*/
 html {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 18px
+  font-family: "Open Sans", sans-serif;
+  font-size: 18px;
 }
-.container{
+.container {
   display: flex;
   flex-direction: column;
   /*align-items: center;*/
 }
-.descripcion{
+.descripcion {
   display: flex;
-  flex-direction: column; 
-    margin: 30px;
-    align-content: center;
-    align-items: center;
-    justify-items: center;  
-
+  flex-direction: column;
+  margin: 30px;
+  align-content: center;
+  align-items: center;
+  justify-items: center;
 }
-.descripcion >img{
+.descripcion > img {
   max-width: 70%;
 }
-div.header{  
+div.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
   margin: 30px;
   max-width: 100%;
   height: 500px;
-  background-image: url('../images/soup.jpg');
+  background-image: url("../images/soup.jpg");
   background-position: 0;
-  background-repeat:no-repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
-h1{
+h1 {
   font-size: 3rem;
   color: aliceblue;
-  padding-top: 10rem;
-  text-align: center;}
-  .separador{
-    background-color: rgb(75, 75, 75);
-    margin: 20px;
-    max-width: 100%;
-    height: 2px;
-
-  }
+  text-align: center;
+}
+.separador {
+  background-color: rgb(75, 75, 75);
+  margin: 20px;
+  max-width: 100%;
+  height: 2px;
+}
